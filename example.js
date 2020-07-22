@@ -25,7 +25,7 @@ if (!directory) {
   if (!fs.existsSync(dirname)) {
     fs.mkdirSync(dirname)
   }
-})
+});
 
 (async () => {
   const files = await readdir(directory)
